@@ -1,0 +1,12 @@
+{
+  "item.learningmod.shard": "Shard",
+  "item.learningmod.max_chibi": "D!Max Chibi",
+  "item.learningmod.raw_sapphire": "Raw Sapphire",
+  "item.learningmod.sapphire": "Sapphire",
+
+  "block.learningmod.sapphire_block": "Sapphire Block",
+  "block.learningmod.raw_sapphire_block": "Raw Sapphire Block",
+  "block.learningmod.sapphire_ore": "Sapphire Ore",
+
+  "creativetab.learning_tab": "NedeMax Learning Tab"
+}
