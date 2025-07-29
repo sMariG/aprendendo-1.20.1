@@ -22,11 +22,15 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.SHARD.get());
                         output.accept(ModItems.RAW_SAPPHIRE.get());
                         output.accept(ModItems.SAPPHIRE.get());
+                        output.accept(ModItems.RUBBER_DUCK.get());
+                        output.accept(ModItems.ROTTEN_APPLE.get());
+                        output.accept(ModItems.PINE_CONE.get());
 
 
                         output.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                         output.accept(ModBlocks.SAPPHIRE_ORE.get());
+                        output.accept(ModBlocks.SOUND_BLOCK.get());
 
                     })
                     .build());

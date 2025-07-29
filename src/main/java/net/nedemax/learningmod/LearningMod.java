@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nedemax.learningmod.block.ModBlocks;
 import net.nedemax.learningmod.item.ModCreativeModTabs;
 import net.nedemax.learningmod.item.ModItems;
+import net.nedemax.learningmod.sound.ModSounds;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,14 +35,19 @@ public class LearningMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        modEventBus.addListener(this::commonSetup);
+        ModSounds.register(modEventBus);
 
+        modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
 
+
+
     }
+
+
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {

@@ -1,0 +1,8 @@
+{
+  "duck_sound": {
+    "subtitles": "sounds.learningmod.duck_sound",
+    "sounds": [
+      "learningmod:duck_sound"
+    ]
+  }
+}

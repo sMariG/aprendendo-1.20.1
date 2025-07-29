@@ -3,10 +3,18 @@
   "item.learningmod.max_chibi": "D!Max Chibi",
   "item.learningmod.raw_sapphire": "Raw Sapphire",
   "item.learningmod.sapphire": "Sapphire",
+  "item.learningmod.rubber_duck": "Rubber Duck",
+  "item.learningmod.rotten_apple": "Rotten Apple",
+  "item.learningmod.pine_cone": "Pine Cone",
 
   "block.learningmod.sapphire_block": "Sapphire Block",
   "block.learningmod.raw_sapphire_block": "Raw Sapphire Block",
   "block.learningmod.sapphire_ore": "Sapphire Ore",
+  "block.learningmod.sound_block": "Sound Block",
 
-  "creativetab.learning_tab": "NedeMax Learning Tab"
+  "creativetab.learning_tab": "NedeMax Learning Tab",
+
+  "sounds.learningmod.duck_sound": "Duck Noise",
+
+  "tooltip.learningmod.metal_detector.tooltip": "Finds Iron and Diamond Underground."
 }
